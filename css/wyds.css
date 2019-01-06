@@ -1,0 +1,179 @@
+body{
+    background: url("../img/bg.a5c81f4.jpg")no-repeat;
+    height: 2231px;
+    width: 100%;
+}
+.logo{
+    position: relative;
+    width: 419px;
+    height: 286px;
+    margin: 110px auto 66px;
+}
+.img1{
+    position: absolute;
+    top: -60px;
+    left: -310px;
+}
+.img2{
+    position: absolute;
+    top: 176px;
+    right: -380px;
+}
+.yq{
+    width: 419px;
+    height: 100px;
+    margin: auto;
+}
+.ewm{
+    width: 550px;
+    height: 500px;
+    margin: auto;
+}
+.zuo{
+    background: url("../img/bg_color.2916f5d.png")no-repeat;
+    height: 238px;
+    width: 238px;
+    float: left;
+    margin-top: 15px;
+}
+.img3{
+    width: 223px;
+    margin-left: 7px;
+    margin-top: 7px;
+}
+.you{
+    float: left;
+}
+.you1{
+    background: url("../img/download_ios_p.3e33470.png")no-repeat;
+    height: 124px;
+    width: 311px;
+}
+.you1:hover{
+    background: url("../img/download_ios_p_hover.92aae90.png")no-repeat;
+}
+.you2{
+    background: url("../img/download_android_p.acfe210.png")no-repeat;
+    height: 124px;
+    width: 311px;
+}
+.you2:hover{
+    background: url("../img/download_android_p_hover.0118824.png")no-repeat;
+}
+.wrap{
+    width:1200px;
+    margin:30px auto;
+}
+.slide {
+    height:500px;
+    position: relative;
+}
+.slide li{
+    position: absolute;
+    left:200px;
+    top:0;
+}
+.arrow{
+    transition: all .5s;
+}
+.prev,.next{
+    height: 150px;
+    width: 78px;
+    position: absolute;
+    top:50%;
+    right: 99%;
+    margin-top:-56px;
+    background: url(../img/pagination_prev.c92a7cd.png) no-repeat;
+    z-index: 99;
+}
+.next{
+    right:-20%;
+    background-image: url(../img/pagination_next_hover.66e3377.png);
+}
+.bottom{
+    background: url("../img/bottom-bar_bg.914181e.png");
+    width: 100%;
+    height: 170px;
+    margin-top: 470px;
+}
+.bottom-cont{
+    width: 700px;
+    margin: auto;
+    position: relative;
+}
+.bottom i{
+    display: inline-block;
+}
+.bottom .you1{
+    margin-left: 90px;
+    margin-top: 14px;
+}
+.bottom .you2{
+    margin-left: -20px;
+    margin-top: 14px;
+}
+.xm{
+    background: url("../img/bg_color_small.404a09f.png")no-repeat;
+    height: 92px;
+    width: 92px;
+    top: 30px;
+    position: absolute;
+}
+.bottom .zuo{
+    position: absolute;
+    top: -220px;
+    display: none;
+    left: -145px;
+}
+.xm img{
+    margin-top: 4px;
+    margin-left: 2px;
+}
+footer{
+    padding-bottom: 50px;
+    margin-top: -3px;
+}
+footer .inner{
+    padding: 30px 0;
+    text-align: center;
+    font-size: 14px;
+    color: #a3a3a3;
+}
+footer a{
+    color: #a3a3a3;
+ }
+footer .inner span{
+    font-family: "Microsoft Yahei";
+    margin-right: 5px;
+}
+footer .inner i{
+    display: inline-block;
+    height: 20px;
+    font-size: 20px;
+    line-height: 20px;
+    cursor: pointer;
+}
+.foot-logo{
+    width: 840px;
+    text-align: left;
+    margin: 0 auto;
+    padding: 15px 0 10px;
+    font-size: 12px;
+    line-height: 20px;
+}
+.img4{
+    float: left;
+}
+.you{
+    float: right;
+}
+.p101{
+    float: right;
+    margin-left: 10px;
+    font-size: 12px;
+}
+.span101{
+    display: block;
+    height: 28px;
+    line-height: 28px;
+}

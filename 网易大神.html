@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>网易大神</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/wyds.css"/>
+    <link rel="shortcut icon" href="img/favicon.ico"/>
+</head>
+<body>
+<div class="logo">
+    <img src="img/banner_p.10bd047.png">
+    <img class="img1" src="img/bg_phone.70f48be.png">
+    <img class="img2" src="img/bg_game.f2a6334.png">
+</div>
+<div class="yq">
+    <img src="img/slogan_p.ae937b5.png">
+</div>
+<div class="ewm">
+    <div class="zuo">
+        <img class="img3" src="img/qrcode-logo.e872877.png">
+    </div>
+    <div class="you">
+        <div class="you1"></div>
+        <div class="you2"></div>
+    </div>
+</div>
+<div class="wrap" id="wrap">
+    <div class="slide" id="slide">
+        <ul>
+            <li><a href="#"><img src="img/01.49652d0.png" alt=""/></a></li>
+            <li><a href="#"><img src="img/02.a1fe178.png" alt=""/></a></li>
+            <li><a href="#"><img src="img/03.f78cd74.png" alt=""/></a></li>
+            <li><a href="#"><img src="img/04.2c8ff44.png" alt=""/></a></li>
+            <li><a href="#"><img src="img/01.49652d0.png" alt=""/></a></li>
+        </ul>
+        <div class="arrow" id="arrow">
+            <a href="javascript:;" class="prev" id="arrLeft"></a>
+            <a href="javascript:;" class="next" id="arrRight"></a>
+        </div>
+    </div>
+</div>
+<div class="bottom">
+    <div class="bottom-cont">
+    <i class="xm">
+        <img src="img/qrcode_small.e3410c1.png">
+    </i>
+        <div class="zuo">
+            <img class="img3" src="img/qrcode-logo.e872877.png">
+        </div>
+    <i class="you1"></i>
+    <i class="you2"></i>
+    </div>
+</div>
+<footer style="background: #1d1d1d">
+    <div class="inner">
+        <div class="foot-logo">
+            <div class="img4">
+                <img src="img/netease.2.png">
+                <img src="img/nie.2.png">
+            </div>
+            <div class="you">
+                <p class="p101 clear">
+                    <span class="span100">
+                 <a>公司简介</a> -
+                 <a>客户服务</a> -
+                 <a>相关法律</a> -
+                 <a>网易游戏</a> -
+                 <a>联系我们</a> -
+                 <a>商务合作</a> -
+                 <a>加入我们</a>
+                    </span>
+            <span class="span101">
+				网易公司版权所有 ©1997-2018
+               &nbsp; 中国网络游戏版权保护联盟举报中心
+            </span>
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="js/js/animate1.js"></script>
+<script src="js/js/index.js"></script>
+<script>
+    var xm=document.getElementsByClassName('xm');
+    var zuo=document.querySelectorAll('.bottom .zuo');
+    console.log(xm,zuo);
+    xm[0].onmousemove=function(){
+        zuo[0].style.display='block';
+    };
+    xm[0].onmouseout=function(){
+        zuo[0].style.display='none';
+    };
+    zuo[0].onmouseover=function(){
+        zuo[0].style.display='block';
+    };
+    zuo[0].onmouseout=function(){
+        zuo[0].style.display='none';
+    }
+</script>
+</body>
+</html>

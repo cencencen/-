@@ -1,0 +1,325 @@
+header{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+.header{
+    background: url("../img/navbg.png");
+    width: 100%;
+    height: 78px;
+    z-index: 999;
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.all{
+    width: 100%;
+    height: 442px;
+}
+.inner{
+    width: 1005px;
+    margin: auto;
+}
+.inner img{
+    padding: 20px 0;
+}
+.nav{
+    position: relative;
+}
+.p1{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 235px;
+    color: #a7a7a7;
+}
+.p1 a{
+    display: inline-block;
+    font-size: 12px;
+    color: #a7a7a7;
+    padding: 0 20px;
+}
+.icon2{
+    background: url("../img/menu.png")no-repeat;
+    display: inline-block;
+}
+.nav .p2 a{
+    width: 132px;
+    height: 37px;
+    float: left;
+    overflow: hidden;
+    margin-top: 20px;
+}
+.a1{
+    background-position: 0 10px;
+}
+.nav .p2 a.now,.nav .p2 a:hover{
+    background-position-y: -35px;
+}
+.a2{
+    background-position: -140px 10px;
+}
+.a3{
+    background-position: -280px 10px;
+}
+.a4{
+    background-position: -420px 10px;
+}
+.all ol{
+    position: absolute;
+    top: 400px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.all ol li{
+    float: left;
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    text-indent: -9999px;
+    background: #ccc;
+    margin: 0 6px;
+    cursor: pointer;
+}
+.screen{
+    width: 1920px;
+    overflow: hidden;
+}
+.screen ul{
+    width: 700%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.screen ul li{
+    width: 1920px;
+    float: left;
+}
+.screen ul li img{
+    width: 1920px;
+}
+.all ol li.now{
+     background: #c00;
+ }
+#arr{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+#arr a{
+    background: url("../img/arrow.png")no-repeat;
+    display: inline-block;
+    margin-left: -550px;
+}
+#left{
+    position: absolute;
+    width: 37px;
+    height: 63px;
+    z-index: 99;
+    cursor: pointer;
+    background-position: 0 -64px;
+}
+#left:hover{
+    background-position: 0 0;
+}
+.screen #arr #right{
+    position: absolute;
+    width: 37px;
+    height: 63px;
+    z-index: 99;
+    right: -500px;
+    cursor: pointer;
+    text-indent: -9999px;
+    background-position: -40px -64px;
+    margin-left: 0;
+}
+.main{
+    position: absolute;
+    right: 30%;
+    top: 100px;
+    width: 220px;
+    height: 340px;
+    padding: 0 15px;
+    border-top: solid 5px #d21b35;
+    background: rgba(0,0,0,.9);
+}
+.main-title{
+    height: 41px;
+    padding-top: 13px;
+    border-bottom: solid 1px #ddd;
+}
+.span1{
+    font-size: 21px;
+    color: #fff;
+    font-weight: 700;
+    float: left;
+    margin-top: 10px;
+}
+.span2{
+    float: right;
+    margin-top: 20px;
+    display: inline-block;
+    font-size: 13px;
+    background: url("../img/more.png")no-repeat right center;
+    padding-right: 20px;
+    color: #a7a7a7;
+}
+.main ul li{
+    background: url("../img/rpoint.png")no-repeat 0 15px;
+    border-top: dotted 1px #5e6262;
+    color: #a7a7a7;
+    font-size: 14px;
+    line-height: 32px;
+    height: 32px;
+    overflow: hidden;
+    padding-left: 15px;
+    padding-bottom: 4px;
+    cursor: pointer;
+}
+.main ul li:hover{
+    color: #fff;
+    text-decoration: underline;
+}
+.inner .title{
+    line-height: 72px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #d21b35;
+}
+.icon3{
+    background: url("../img/nav%20(1).jpg")no-repeat;
+}
+.ul1 li{
+    float: left;
+    height: 52px;
+    width: 251px;
+}
+.ul1 li:hover,.ul1 li.now{
+    background-position-y: -52px;
+}
+.i1{
+    background-position: 0 0;
+}
+.i2{
+    background-position: -250px 0;
+}
+.i3{
+     background-position: -500px 0;
+}
+.i4{
+    background-position: -750px 0;
+}
+.box1 .ul2 li{
+    float: left;
+    text-align: center;
+    display: block;
+    border: 1px #eaeaea solid;
+    width: 250px;
+    height: 140px;
+    color: #555;
+    font-size: 16px;
+    font-weight: 700;
+    position: relative;
+    cursor: pointer;
+    margin-left: -1px;
+    margin-top: -1px;
+}
+.box1 .ul2 li img{
+    margin: 0;
+    padding: 0;
+}
+.box1 .ul2 li p{
+    width: 100%;
+    position: absolute;
+    bottom: 10px;
+}
+.box1{
+    display: none;
+}
+.box1.now{
+     display: block;
+ }
+footer{
+    background-color: #f0f0f0;
+    text-align: center;
+    position: relative;
+    padding-top: 20px;
+    clear: both;
+    overflow: hidden;
+}
+.p3{
+    background: url("../img/wenti.png")no-repeat;
+    color: #626262;
+    font-size: 14px;
+    width: 90px;
+    text-align: right;
+    line-height: 20px;
+    float: left;
+    margin: 6px 30px 0 50px;
+}
+footer .inner .ul3{
+    width: 400px;
+    float: left;
+}
+.ul3 li{
+    width: 185px;
+    background: url('../img/point.png') no-repeat left;
+    text-align: left;
+    padding-left: 15px;
+    float: left;
+    line-height: 32px;
+    font-size: 12px;
+    color: #999;
+}
+.ul3 .li2{
+    background: none;
+    color: #d21b35;
+    text-decoration: underline;
+}
+.p4{
+    background: url("../img/kefu.png")no-repeat;
+}
+.kefu{
+    float: left;
+    width: 180px;
+    text-align: left;
+}
+.kefu .title1{
+    padding-top: 6px;
+    color: #626262;
+    font-size: 14px;
+}
+.kefu .dh{
+    font-size: 12px;
+    color: #999;
+}
+.wy{
+    text-align: center;
+    color: #939393;
+    padding: 25px 0 40px 0;
+    clear: both;
+}
+.a5{
+    background: url("../img/netease.1.png")no-repeat;
+    height: 31px;
+    width: 118px;
+    display: inline-block;
+}
+.a6{
+    background: url("../img/nie.1.png")no-repeat;
+    height: 31px;
+    width: 134px;
+    display: inline-block;
+}
+.box2{
+    display: inline-block;
+    text-align: left;
+    padding-left: 6px;
+    font-size: 12px;
+    color: #939393;
+}
+.span3 a{
+    color: #939393;
+}
